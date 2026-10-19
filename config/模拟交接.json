@@ -1,0 +1,49 @@
+{
+  "task_id": "模拟交接示例",
+  "title": "模拟双 Agent 交接",
+  "description": "不调用真实模型。Codex 席位、Cursor 席位和验收席位都由本地模拟执行器扮演。",
+  "goal": "用中文确认协调器可以在 Codex 与 Cursor 之间传递消息，并完成验收。",
+  "workspace": "tests/fixtures/示例工作区",
+  "max_rounds": 6,
+  "timeout_seconds": 30,
+  "participants": [
+    {
+      "id": "codex",
+      "executor": "mock",
+      "role": "开发者"
+    },
+    {
+      "id": "cursor",
+      "executor": "mock",
+      "role": "审查者"
+    },
+    {
+      "id": "acceptor",
+      "executor": "mock",
+      "role": "验收者"
+    }
+  ],
+  "flow": [
+    "codex",
+    "cursor",
+    "acceptor"
+  ],
+  "cycle": false,
+  "mock_plan": [
+    "ok",
+    "ok",
+    "accept"
+  ],
+  "write_paths": [
+    "tests/fixtures/示例工作区"
+  ],
+  "verification": [
+    {
+      "type": "file_contains",
+      "path": "tests/fixtures/示例工作区/说明.txt",
+      "text": "示例工作区"
+    }
+  ],
+  "allow_real_codex": false,
+  "allow_real_cursor": false
+}

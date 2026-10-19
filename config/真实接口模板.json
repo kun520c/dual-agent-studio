@@ -1,0 +1,53 @@
+{
+  "task_id": "java-rag-template",
+  "title": "Java 或 RAG 项目协作模板",
+  "description": "Negative authorization test template. Real execution requires separate signed authority; environment switches do not grant permission.",
+  "goal": "把这里改成你的开发目标，例如：为订单模块补齐分页查询并让审查者检查事务边界。",
+  "workspace": "C:/example/authorized-project",
+  "allowed_roots": [
+    "C:/example/authorized-project"
+  ],
+  "max_rounds": 6,
+  "timeout_seconds": 600,
+  "participants": [
+    {
+      "id": "codex",
+      "executor": "codex",
+      "role": "开发者"
+    },
+    {
+      "id": "cursor",
+      "executor": "cursor",
+      "role": "审查者"
+    },
+    {
+      "id": "codex-fix",
+      "executor": "codex",
+      "role": "开发者"
+    },
+    {
+      "id": "cursor-accept",
+      "executor": "cursor",
+      "role": "验收者"
+    }
+  ],
+  "flow": [
+    "codex",
+    "cursor",
+    "codex-fix",
+    "cursor-accept"
+  ],
+  "cycle": false,
+  "write_paths": [
+    "C:/example/authorized-project"
+  ],
+  "verification": [
+    {
+      "type": "file_contains",
+      "path": "C:/example/authorized-project/README.md",
+      "text": "请改成只有独立验证通过才存在的标记"
+    }
+  ],
+  "allow_real_codex": false,
+  "allow_real_cursor": false
+}

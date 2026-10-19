@@ -1,0 +1,25 @@
+{
+  "name": "dual-agent-studio-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "check": "node node_modules/typescript/bin/tsc -p ../desktop-validation/frontend/tsconfig.json --pretty false",
+    "build": "node node_modules/vite/bin/vite.js build --config ../desktop-validation/frontend/vite.config.ts",
+    "test": "node --test ../desktop-validation/frontend/tests/*.test.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.468.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.8.3",
+    "vite": "6.4.4"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

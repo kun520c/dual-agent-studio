@@ -1,0 +1,38 @@
+"""All domain transition edges; completion has an additional evidence gate."""
+from enum import Enum
+from .model import AttemptStatus as A, GoalStatus as G, WorkStatus as W, TransitionError
+
+GOAL_EDGES = {
+    G.UNPLANNED: {G.PLANNED, G.BLOCKED, G.CANCELLED},
+    G.PLANNED: {G.RUNNING, G.BLOCKED, G.CANCELLED},
+    G.RUNNING: {G.PLANNED, G.BLOCKED, G.COMPLETED, G.CANCELLED},
+    G.BLOCKED: {G.PLANNED, G.UNPLANNED, G.CANCELLED},
+    G.COMPLETED: set(), G.CANCELLED: set(),
+}
+WORK_EDGES = {
+    W.PENDING: {W.READY, W.BLOCKED, W.CANCELLED, W.SUPERSEDED},
+    W.READY: {W.PENDING, W.DISPATCHED, W.BLOCKED, W.CANCELLED, W.SUPERSEDED},
+    W.DISPATCHED: {W.RUNNING, W.FAILED, W.BLOCKED, W.CANCELLED},
+    W.RUNNING: {W.AWAITING_CONFIRMATION, W.FAILED, W.BLOCKED, W.CANCELLED},
+    W.AWAITING_CONFIRMATION: {W.COMPLETED, W.FAILED, W.BLOCKED, W.CANCELLED},
+    W.FAILED: {W.READY, W.PENDING, W.CANCELLED, W.SUPERSEDED},
+    W.BLOCKED: {W.READY, W.PENDING, W.CANCELLED, W.SUPERSEDED},
+    W.COMPLETED: set(), W.CANCELLED: set(), W.SUPERSEDED: set(),
+}
+ATTEMPT_EDGES = {
+    A.DISPATCH_INTENT: {A.RUNNING, A.FAILED, A.CANCELLED, A.INTERRUPTED, A.NEEDS_RECONCILIATION},
+    A.RUNNING: {A.RESULT_PENDING, A.FAILED, A.CANCELLED, A.INTERRUPTED, A.NEEDS_RECONCILIATION},
+    A.RESULT_PENDING: {A.SUCCEEDED, A.FAILED, A.CANCELLED, A.NEEDS_RECONCILIATION},
+    A.NEEDS_RECONCILIATION: {A.FAILED, A.INTERRUPTED, A.CANCELLED},
+    A.SUCCEEDED: set(), A.FAILED: set(), A.CANCELLED: set(), A.INTERRUPTED: set(),
+}
+ACTIVE_ATTEMPTS = {A.DISPATCH_INTENT, A.RUNNING, A.RESULT_PENDING, A.NEEDS_RECONCILIATION}
+TERMINAL_GOALS = {G.COMPLETED, G.CANCELLED}
+
+
+def require_transition(old: Enum, new: Enum) -> None:
+    if type(old) is not type(new):
+        raise TransitionError('State must be a typed enum of the same domain')
+    edges = {G: GOAL_EDGES, W: WORK_EDGES, A: ATTEMPT_EDGES}.get(type(old), {})
+    if new not in edges.get(old, set()):
+        raise TransitionError(f'Illegal transition: {old.value} -> {new.value}')

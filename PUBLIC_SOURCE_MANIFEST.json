@@ -1,0 +1,1206 @@
+{
+  "schema": 1,
+  "policy": "Explicit reviewed files only; no historical Git or runtime data",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/.gitattributes",
+      "bytes": 154,
+      "sha256": "4bf32854f2e76923762436366cbde29f648f230a15b9a6885cf9521aff155b99"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/.github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 398,
+      "sha256": "a2f522ba44763e62e65820092216baa8617db460a49bd63eb0b9fa9b95466efd"
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/.github/workflows/windows.yml",
+      "bytes": 1033,
+      "sha256": "c4edb7c94419ebf4c28023b9ea47bdc888de8f28cf5a0b273baf6de5c4746d63"
+    },
+    {
+      "path": ".gitignore",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/.gitignore",
+      "bytes": 350,
+      "sha256": "f71d0b2d4797d7cd6cbfc7786c705800227ff9780204772c0640f98376ee4a90"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/CHANGELOG.md",
+      "bytes": 1209,
+      "sha256": "0c15f7d20c54f19f0053498c9e58afb67552a78c49c37a2176e4cd59757b3d70"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/CONTRIBUTING.md",
+      "bytes": 1095,
+      "sha256": "fa970b22718fff0724988eb1d6a74891b1d9298044740dc4e3e3c0d4e4acff16"
+    },
+    {
+      "path": "README.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/README.md",
+      "bytes": 9289,
+      "sha256": "7fd70fa64628ce526f9fcce7a2ed5e93a83c3634cb8e7ce936b35aacda1af8d5"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/README.zh-CN.md",
+      "bytes": 5832,
+      "sha256": "208dc7d3f1c740d7d501785f561e39689f15d93c5e83478218d14e30ae7bb166"
+    },
+    {
+      "path": "SECURITY.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/SECURITY.md",
+      "bytes": 136,
+      "sha256": "39c4edf9e273fa57b5e188135fb671e188a986c4634ca15f90f0a3ed5700647f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/THIRD_PARTY_NOTICES.md",
+      "bytes": 2387,
+      "sha256": "7cc285b462a4c5e901f40eeda52a0c71a9f32662a3e2ecac279c7916e508cb0e"
+    },
+    {
+      "path": "config/模拟交接.json",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/config/模拟交接.json",
+      "bytes": 1093,
+      "sha256": "f3c8fadc55391f58ef7e60dd5f3020a5118ffba10b7b66ffc2b6388d329ca84c"
+    },
+    {
+      "path": "config/真实接口模板.json",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/config/真实接口模板.json",
+      "bytes": 1319,
+      "sha256": "3e1130909f368e45206d02a4b758d24b1c9e87be5d341d4c29f57c76200d34b4"
+    },
+    {
+      "path": "design-prototype/package-lock.json",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/design-prototype/package-lock.json",
+      "bytes": 38669,
+      "sha256": "a01426c0ed4b48f1c0e12f770d4aab64872786bebff12e345ab14b174e3ba047"
+    },
+    {
+      "path": "design-prototype/package.json",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/design-prototype/package.json",
+      "bytes": 716,
+      "sha256": "5ce555d649375e3862ab45d91d9cd51c65a9ba698163e4585611c4af3f654ad4"
+    },
+    {
+      "path": "desktop-validation/fixtures/fixed-window/agents/bug_boundary.java",
+      "source": "desktop-validation/fixtures/fixed-window/agents/bug_boundary.java",
+      "bytes": 1667,
+      "sha256": "d98ee1b720c063e4dac1c4786ab8a5c49d93085f154c52a6718000fac71f064f"
+    },
+    {
+      "path": "desktop-validation/fixtures/fixed-window/agents/bug_limit.java",
+      "source": "desktop-validation/fixtures/fixed-window/agents/bug_limit.java",
+      "bytes": 1695,
+      "sha256": "d4b597508ae6ff8b5fb2cf64103c27a777bbdfca9d3893e6557fb378f258d25e"
+    },
+    {
+      "path": "desktop-validation/fixtures/fixed-window/agents/correct.java",
+      "source": "desktop-validation/fixtures/fixed-window/agents/correct.java",
+      "bytes": 1679,
+      "sha256": "636653f003ead0a47f15cd5b30b544ea2ce163239c437526ee71876cd4c1892a"
+    },
+    {
+      "path": "desktop-validation/fixtures/utf8-clip/agents/bug_char.java",
+      "source": "desktop-validation/fixtures/utf8-clip/agents/bug_char.java",
+      "bytes": 697,
+      "sha256": "074fe9e569facf53731a2a7fca3c3b1f7008115c28fecbed03fa839536895180"
+    },
+    {
+      "path": "desktop-validation/fixtures/utf8-clip/agents/bug_split.java",
+      "source": "desktop-validation/fixtures/utf8-clip/agents/bug_split.java",
+      "bytes": 1410,
+      "sha256": "c8ee0ec6c5fd1a662f0aa464c329066f1e745fc95c683d9ddba7ae3404e3a85c"
+    },
+    {
+      "path": "desktop-validation/fixtures/utf8-clip/agents/correct.java",
+      "source": "desktop-validation/fixtures/utf8-clip/agents/correct.java",
+      "bytes": 1564,
+      "sha256": "ccb8b8f4d34bc60892fb7add56c4cda187eb575378a346e3dd50134008c01fd1"
+    },
+    {
+      "path": "desktop-validation/frontend/index.html",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/frontend/index.html",
+      "bytes": 692,
+      "sha256": "77580ec1a44cb9efd9919cc8a260db89bc68f666d12555ecd744d5c461df762e"
+    },
+    {
+      "path": "desktop-validation/frontend/src/AccessPanel.tsx",
+      "source": "desktop-validation/frontend/src/AccessPanel.tsx",
+      "bytes": 4997,
+      "sha256": "3a95b325bc9a29746e48ec533cf926616b6408bdf32b610326c90275db90c818"
+    },
+    {
+      "path": "desktop-validation/frontend/src/FloatingPanel.tsx",
+      "source": "desktop-validation/frontend/src/FloatingPanel.tsx",
+      "bytes": 2351,
+      "sha256": "8497df6a08396b4cf72ae59301a484d90b06f22298f45288a5ef763b18e1c23e"
+    },
+    {
+      "path": "desktop-validation/frontend/src/Inspector.tsx",
+      "source": "desktop-validation/frontend/src/Inspector.tsx",
+      "bytes": 13620,
+      "sha256": "a69d58bb12391643828f08b50e2000f1a4acbf7fbeb50ae21a871c0cc3ed1366"
+    },
+    {
+      "path": "desktop-validation/frontend/src/ProjectInfoPanel.tsx",
+      "source": "desktop-validation/frontend/src/ProjectInfoPanel.tsx",
+      "bytes": 1994,
+      "sha256": "59a42f372debbffdee6c41997429ce37c66cebe5aeb7f8bcc79cb8f40a890a8c"
+    },
+    {
+      "path": "desktop-validation/frontend/src/ProjectManager.tsx",
+      "source": "desktop-validation/frontend/src/ProjectManager.tsx",
+      "bytes": 18673,
+      "sha256": "10016e744fcb76a49b1d19b2c1a13ed42b525a3c148052dc5aa9a4db5ac9d8f5"
+    },
+    {
+      "path": "desktop-validation/frontend/src/ResultSummary.tsx",
+      "source": "desktop-validation/frontend/src/ResultSummary.tsx",
+      "bytes": 3509,
+      "sha256": "060a3fc512a47939d6e82dc4ad8c0c822807029d315aa4b518e24ecde073c03b"
+    },
+    {
+      "path": "desktop-validation/frontend/src/RunStatus.tsx",
+      "source": "desktop-validation/frontend/src/RunStatus.tsx",
+      "bytes": 1047,
+      "sha256": "fe090972ef5e0a4d1c3dbce2fe1248a73b953fd28bda8a92d68ee32226c17b9a"
+    },
+    {
+      "path": "desktop-validation/frontend/src/TaskComposer.tsx",
+      "source": "desktop-validation/frontend/src/TaskComposer.tsx",
+      "bytes": 18703,
+      "sha256": "8a1684246d7111a3b30ff8d0507a86e60811f0613bb9f38f84ae097ae875b2c2"
+    },
+    {
+      "path": "desktop-validation/frontend/src/TaskSettingsPanel.tsx",
+      "source": "desktop-validation/frontend/src/TaskSettingsPanel.tsx",
+      "bytes": 5799,
+      "sha256": "cbd930ef69a666c06a3df9a58e08915ff936d45637351b13077853438865c9cd"
+    },
+    {
+      "path": "desktop-validation/frontend/src/Timeline.tsx",
+      "source": "desktop-validation/frontend/src/Timeline.tsx",
+      "bytes": 11745,
+      "sha256": "3f5346cc45de46644684c35b892a72bf1c2d765dde5db11f980d5c9030c9debb"
+    },
+    {
+      "path": "desktop-validation/frontend/src/UsageView.tsx",
+      "source": "desktop-validation/frontend/src/UsageView.tsx",
+      "bytes": 1927,
+      "sha256": "9de3db9c341757ade91f87fb8567a42f52d579dffbd8b55841f5442bb91d8d2b"
+    },
+    {
+      "path": "desktop-validation/frontend/src/bridge.ts",
+      "source": "desktop-validation/frontend/src/bridge.ts",
+      "bytes": 11597,
+      "sha256": "348467dbab15de9c34062e727f544b538064477a49ac7bc9806bbc40b7924424"
+    },
+    {
+      "path": "desktop-validation/frontend/src/composeModel.ts",
+      "source": "desktop-validation/frontend/src/composeModel.ts",
+      "bytes": 4827,
+      "sha256": "c6fb5e06e9082e201bb607d7069e13c94b241d64574d3f9074b893a2ea6f4c78"
+    },
+    {
+      "path": "desktop-validation/frontend/src/highlight.ts",
+      "source": "desktop-validation/frontend/src/highlight.ts",
+      "bytes": 3363,
+      "sha256": "a557de55e708780401739d280d14b963053e59d55f97e49be7999222c937f0bc"
+    },
+    {
+      "path": "desktop-validation/frontend/src/historyPaging.ts",
+      "source": "desktop-validation/frontend/src/historyPaging.ts",
+      "bytes": 1949,
+      "sha256": "9397104c02767f4a4be5453a0af3ec2da1ac961551c3fc91250c2427e31bc914"
+    },
+    {
+      "path": "desktop-validation/frontend/src/integration.css",
+      "source": "desktop-validation/frontend/src/integration.css",
+      "bytes": 29249,
+      "sha256": "8d5de045d1781051228d46c291d89db385fe767e1a1d08fec8e98e1ea8d0367a"
+    },
+    {
+      "path": "desktop-validation/frontend/src/main.tsx",
+      "source": "desktop-validation/frontend/src/main.tsx",
+      "bytes": 43137,
+      "sha256": "de8c3b03ec99545e160192f9c9bf02ca327eafae216b1ec95869865bb87e30d2"
+    },
+    {
+      "path": "desktop-validation/frontend/src/present.ts",
+      "source": "desktop-validation/frontend/src/present.ts",
+      "bytes": 27639,
+      "sha256": "894eefe9ce6424f2bd7e0da1cd34792eb029e10059cf37b09bd4f5e43eae87fd"
+    },
+    {
+      "path": "desktop-validation/frontend/src/records.tsx",
+      "source": "desktop-validation/frontend/src/records.tsx",
+      "bytes": 1518,
+      "sha256": "940ec2323e3f1935d09af3396446b0eb145729661247736a858eb8d44ddd8b83"
+    },
+    {
+      "path": "desktop-validation/frontend/src/selectionScroll.ts",
+      "source": "desktop-validation/frontend/src/selectionScroll.ts",
+      "bytes": 3015,
+      "sha256": "48ca03b5ab07109d049e526eb4a6abdd67f069491d99fd676bb8e44a369967a1"
+    },
+    {
+      "path": "desktop-validation/frontend/src/styles.css",
+      "source": "desktop-validation/frontend/src/styles.css",
+      "bytes": 42315,
+      "sha256": "fdec4d1beb24bdfb2499f48e6dc13f5bdaa5e4e5ab1fc30c68aee6bdbb52218b"
+    },
+    {
+      "path": "desktop-validation/frontend/src/workflow.css",
+      "source": "desktop-validation/frontend/src/workflow.css",
+      "bytes": 9133,
+      "sha256": "afbebb66e3f504ec78c33e0a42b178a5e7736c8ef5ae7c2784ce81615c07e67d"
+    },
+    {
+      "path": "desktop-validation/frontend/src/workflow.ts",
+      "source": "desktop-validation/frontend/src/workflow.ts",
+      "bytes": 4023,
+      "sha256": "91c2ff54ca39a6575536f85d1838bdacb53c64d8cfd2201e4fa38eec54fb8722"
+    },
+    {
+      "path": "desktop-validation/frontend/tests/composeModel.test.cjs",
+      "source": "desktop-validation/frontend/tests/composeModel.test.cjs",
+      "bytes": 3238,
+      "sha256": "3c3f3614e76321b69cf01eb92eb293da61235f0cadcbb16389e05f7e0c7ca59c"
+    },
+    {
+      "path": "desktop-validation/frontend/tests/historyPaging.test.cjs",
+      "source": "desktop-validation/frontend/tests/historyPaging.test.cjs",
+      "bytes": 4877,
+      "sha256": "cc96378e11e1debca9dcbd4a2e5b33d9cce3d87af3e157ce11070e5519d9dade"
+    },
+    {
+      "path": "desktop-validation/frontend/tests/layout.test.cjs",
+      "source": "desktop-validation/frontend/tests/layout.test.cjs",
+      "bytes": 2448,
+      "sha256": "7d3306dd04b7a24e50bea76ed8e96ca579253ed09a10d3f0540b4cbeab44ef55"
+    },
+    {
+      "path": "desktop-validation/frontend/tests/present.test.cjs",
+      "source": "desktop-validation/frontend/tests/present.test.cjs",
+      "bytes": 11032,
+      "sha256": "d32eaa291fb50e6dc8690387d22f9ad838b3d3f8b2d97b21c85b83156470093f"
+    },
+    {
+      "path": "desktop-validation/frontend/tests/workflow.test.cjs",
+      "source": "desktop-validation/frontend/tests/workflow.test.cjs",
+      "bytes": 5855,
+      "sha256": "f0ee34c213d0a0b183a1be3d3aedf4c7d6a3ccf349bff7b7780207203b097a55"
+    },
+    {
+      "path": "desktop-validation/frontend/tsconfig.json",
+      "source": "desktop-validation/frontend/tsconfig.json",
+      "bytes": 652,
+      "sha256": "89d8ac90a3959b59669a2b40bf9babe52cd4fe740f023bbfb869931d8fa8e332"
+    },
+    {
+      "path": "desktop-validation/frontend/vite.config.ts",
+      "source": "desktop-validation/frontend/vite.config.ts",
+      "bytes": 550,
+      "sha256": "69c1ac6c2159bb4d7cbe6422ad05f71b5bd16671d03a4a693516ddaa732ca118"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/__init__.py",
+      "source": "desktop-validation/python/desktop_validation/__init__.py",
+      "bytes": 66,
+      "sha256": "b05ab89e421c87f120ebfa5009898d263d67fedd29d1295c14dab2a49a1e4963"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/app.py",
+      "source": "desktop-validation/python/desktop_validation/app.py",
+      "bytes": 34312,
+      "sha256": "9c6854abe3e6f4911966b6f7692acfe184226670430f6bbdb57cf8f7aade2a38"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/bounded.py",
+      "source": "desktop-validation/python/desktop_validation/bounded.py",
+      "bytes": 297,
+      "sha256": "f7127f040552e6f59e305d0678b87b2d80bd1c33bc18a45d2617c6896ae8747b"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/bridge.py",
+      "source": "desktop-validation/python/desktop_validation/bridge.py",
+      "bytes": 4212,
+      "sha256": "fd9a66403e8fd742886c3482ec7f4d84ecd5abb5f10474fd8ebdb11fd78ef3d0"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/files.py",
+      "source": "desktop-validation/python/desktop_validation/files.py",
+      "bytes": 1079,
+      "sha256": "b048ad4085994142111382b04f79dd20eaa1315921aac957ecf7341e1c9e0b49"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/index.py",
+      "source": "desktop-validation/python/desktop_validation/index.py",
+      "bytes": 5378,
+      "sha256": "5dc96b4ff1ded3fe11cb32254e94268d1e1455510e63193d033a327df00d2e7f"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/metrics.py",
+      "source": "desktop-validation/python/desktop_validation/metrics.py",
+      "bytes": 3293,
+      "sha256": "33cfb8367d3db48efeeaf5e5b4a98a316791db9c2f7702c7a68600295ba1bc38"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/preflight.py",
+      "source": "desktop-validation/python/desktop_validation/preflight.py",
+      "bytes": 12069,
+      "sha256": "d0895d94669f6e51be9edc57dd98d34753622f88fb859e58b00108f9e8bbfb67"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/project_api.py",
+      "source": "desktop-validation/python/desktop_validation/project_api.py",
+      "bytes": 36921,
+      "sha256": "97632b463b1fc575c4fb67b288c76f1a943a1cc069c90f658296ec0b19108831"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/read_pool.py",
+      "source": "desktop-validation/python/desktop_validation/read_pool.py",
+      "bytes": 1907,
+      "sha256": "3d1d940f04d48236046bb70bfdfe3a2d43d8813ceb33a853b1e84a2adc6dcbb4"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/reader.py",
+      "source": "desktop-validation/python/desktop_validation/reader.py",
+      "bytes": 4707,
+      "sha256": "c3665e4982ddc290b78b209f4513e695807f000bad5b4494e06ddc5d782c6e78"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/rehearsal.py",
+      "source": "desktop-validation/python/desktop_validation/rehearsal.py",
+      "bytes": 14453,
+      "sha256": "49cb70550635a5bbb3368a9c051fce5a91a46c77eacec0877449ec027bf46c2f"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/security.py",
+      "source": "desktop-validation/python/desktop_validation/security.py",
+      "bytes": 6359,
+      "sha256": "162270ce17818ba4acce2d02b394108637700eeca7bd08f554b9abb218e616a1"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/store.py",
+      "source": "desktop-validation/python/desktop_validation/store.py",
+      "bytes": 23596,
+      "sha256": "94e004165cd286dda7e3eb939f7b848bc89535a1589baa1f2ec7d5be29b29f3c"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/task_api.py",
+      "source": "desktop-validation/python/desktop_validation/task_api.py",
+      "bytes": 14071,
+      "sha256": "82d0341f161a9b40df669ef6ca80ffcf2f71713065b4b0e3ce35fac6e06b359f"
+    },
+    {
+      "path": "desktop-validation/python/desktop_validation/task_host.py",
+      "source": "desktop-validation/python/desktop_validation/task_host.py",
+      "bytes": 19633,
+      "sha256": "795481f13fd56cee041cbb720037fa14373fa9841fc17462b030d03f2fb31c6b"
+    },
+    {
+      "path": "desktop-validation/run.py",
+      "source": "desktop-validation/run.py",
+      "bytes": 1283,
+      "sha256": "fadf8fb6bd50933261b8935dd2dc8294ec3fcfa85857cdf3c4ab0e7276135698"
+    },
+    {
+      "path": "desktop-validation/setup_mock_projects.py",
+      "source": "desktop-validation/setup_mock_projects.py",
+      "bytes": 2843,
+      "sha256": "a1a28dee9256eea74d94154611d7c505e6010611007fbfb69b5599b3d244a3cd"
+    },
+    {
+      "path": "desktop-validation/tests/fake_cli_v05.py",
+      "source": "desktop-validation/tests/fake_cli_v05.py",
+      "bytes": 6420,
+      "sha256": "963dfac006bacf167e30e638b4dd0ebf335cdb537f6997ff51196dde4956191b"
+    },
+    {
+      "path": "desktop-validation/tests/fake_manager_cli.py",
+      "source": "desktop-validation/tests/fake_manager_cli.py",
+      "bytes": 1856,
+      "sha256": "63a27f4fba5079609ae53997fc7b01bb39a67411b9b3f878827ed98831698589"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/__init__.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/__init__.py",
+      "bytes": 597,
+      "sha256": "09c4c7c9411f33db6e95550f308e8a5dd43d411c96548af3046f7a94e717ab0e"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/db.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/db.py",
+      "bytes": 4563,
+      "sha256": "660ad6baee24337ad12d870b87fd17ccf30f176e593e72517a4bcad03fc35e9e"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/evidence.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/evidence.py",
+      "bytes": 4419,
+      "sha256": "3efc87c66cd18c7f35dc85a062aefea6391fc59586b5c5d0c11d1de84819963f"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/ledger.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/ledger.py",
+      "bytes": 36557,
+      "sha256": "61ad6530190f9adfe21b60cd90a7196b61f147210b20da3ab28bb85dea30e819"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/migrations.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/migrations.py",
+      "bytes": 6097,
+      "sha256": "90c89c63608dc8b9cda26a240e0748ff5277c1ef8f4496cbbea4c63bfd02d2b0"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/model.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/model.py",
+      "bytes": 5262,
+      "sha256": "291bd87e4d27009471217dc15a91eb60c3f12b0a18690ac7749d2dd6b0535c50"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/recovery.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/recovery.py",
+      "bytes": 3834,
+      "sha256": "c0b88570bfa544b7d38c44ee59d0fe5dd2ace7fadcc25cc0718ced9d17769567"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/schemas.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/schemas.py",
+      "bytes": 4509,
+      "sha256": "0fec731e39ea2031a66299286a509c207380be8655116febf0feb4d7b150a3f8"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v1/state_machine.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v1/state_machine.py",
+      "bytes": 2004,
+      "sha256": "92eb8d53a6b89b4db352beee4820c4e4f76d0e8322a66a988f960774999a6e5b"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/__init__.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/__init__.py",
+      "bytes": 597,
+      "sha256": "09c4c7c9411f33db6e95550f308e8a5dd43d411c96548af3046f7a94e717ab0e"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/db.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/db.py",
+      "bytes": 4563,
+      "sha256": "660ad6baee24337ad12d870b87fd17ccf30f176e593e72517a4bcad03fc35e9e"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/evidence.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/evidence.py",
+      "bytes": 4419,
+      "sha256": "3efc87c66cd18c7f35dc85a062aefea6391fc59586b5c5d0c11d1de84819963f"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/ledger.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/ledger.py",
+      "bytes": 42491,
+      "sha256": "326a883c4b32d225164c3c4b24a591b95a70bc41c7132fe5f010fbb6633ed1fc"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/migrations.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/migrations.py",
+      "bytes": 6969,
+      "sha256": "b1600b133dfb67f668f75c1eb47612e729cedc237f41ca51552f1c5164f582af"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/model.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/model.py",
+      "bytes": 5262,
+      "sha256": "291bd87e4d27009471217dc15a91eb60c3f12b0a18690ac7749d2dd6b0535c50"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/recovery.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/recovery.py",
+      "bytes": 3834,
+      "sha256": "c0b88570bfa544b7d38c44ee59d0fe5dd2ace7fadcc25cc0718ced9d17769567"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/schemas.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/schemas.py",
+      "bytes": 4509,
+      "sha256": "0fec731e39ea2031a66299286a509c207380be8655116febf0feb4d7b150a3f8"
+    },
+    {
+      "path": "desktop-validation/tests/fixtures/ledger_v2/state_machine.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/fixtures/ledger_v2/state_machine.py",
+      "bytes": 2004,
+      "sha256": "92eb8d53a6b89b4db352beee4820c4e4f76d0e8322a66a988f960774999a6e5b"
+    },
+    {
+      "path": "desktop-validation/tests/goal_host_crash_entry.py",
+      "source": "desktop-validation/tests/goal_host_crash_entry.py",
+      "bytes": 1506,
+      "sha256": "00c3a3b93c079643118c8ebae7bf0578056099da4aeddfd441d19e0d10c1fc1a"
+    },
+    {
+      "path": "desktop-validation/tests/test_authorization_display_v141.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/test_authorization_display_v141.py",
+      "bytes": 2144,
+      "sha256": "0cf0f1cbb11171c7000cad8c05e38457afc5f28e441912f57e4b4a4b28875e1c"
+    },
+    {
+      "path": "desktop-validation/tests/test_bridge.py",
+      "source": "desktop-validation/tests/test_bridge.py",
+      "bytes": 10287,
+      "sha256": "798a856e29fef67218040ff1daee673d926e523545296777558dce341ea0442d"
+    },
+    {
+      "path": "desktop-validation/tests/test_cli_v05.py",
+      "source": "desktop-validation/tests/test_cli_v05.py",
+      "bytes": 24857,
+      "sha256": "2696cfde751a789883dfbdea27d9ba9072ff3d4d0de4e73e5516852df86df650"
+    },
+    {
+      "path": "desktop-validation/tests/test_goal_host.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/test_goal_host.py",
+      "bytes": 32755,
+      "sha256": "822609316759b79874afe858e2c738281f9b49fee79cbef5ea25a37de9eac9cf"
+    },
+    {
+      "path": "desktop-validation/tests/test_manager.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/test_manager.py",
+      "bytes": 34585,
+      "sha256": "418d79a3961cea89f232cf6e6ce9b67f5d6598a58f63adcd2644ec77208bb455"
+    },
+    {
+      "path": "desktop-validation/tests/test_manager_api.py",
+      "source": "desktop-validation/tests/test_manager_api.py",
+      "bytes": 35234,
+      "sha256": "2a3e426f8c666204d0c31eab6dd5e9a8f020d0586e3fecab314f98a05c002357"
+    },
+    {
+      "path": "desktop-validation/tests/test_manager_transport.py",
+      "source": "desktop-validation/tests/test_manager_transport.py",
+      "bytes": 27344,
+      "sha256": "8808089e1847509d8d29461a794a148cb2044f14dc3616f4f38674783f60c337"
+    },
+    {
+      "path": "desktop-validation/tests/test_rehearsal_v10.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/test_rehearsal_v10.py",
+      "bytes": 9046,
+      "sha256": "1aa68022254016978b57293477891620f2c5a1a653c1f8991f6bed052404c1a4"
+    },
+    {
+      "path": "desktop-validation/tests/test_reliability.py",
+      "source": "desktop-validation/tests/test_reliability.py",
+      "bytes": 13156,
+      "sha256": "de4af693b2db9db5c2c3c30fa9fe2848b91bdf2dc2a2769b238e6b871a54092c"
+    },
+    {
+      "path": "desktop-validation/tests/test_studio_v04b.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/test_studio_v04b.py",
+      "bytes": 11526,
+      "sha256": "3cf5e3e736295ece5c98be51dea6bb6cd31d59b723b6dd5927a52441c5b2536e"
+    },
+    {
+      "path": "desktop-validation/tests/test_task_api.py",
+      "source": "desktop-validation/tests/test_task_api.py",
+      "bytes": 16345,
+      "sha256": "bccf70556b11d68f6c8c0cee24e600c8add8ac146858f6614c71d7db09afc9d5"
+    },
+    {
+      "path": "desktop-validation/tests/test_usage_v131.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/desktop-validation/tests/test_usage_v131.py",
+      "bytes": 1629,
+      "sha256": "0f5b2f236bec9327523c1a96458a959aeae2ba90956491ffd1c083938c695a5c"
+    },
+    {
+      "path": "desktop-validation/tests/v05_host_entry.py",
+      "source": "desktop-validation/tests/v05_host_entry.py",
+      "bytes": 376,
+      "sha256": "1c20f49061da6581dd473881ec0ccf24bfab74b4942aa0ceaa12dc6a53105bda"
+    },
+    {
+      "path": "desktop-validation/tests/v05_support.py",
+      "source": "desktop-validation/tests/v05_support.py",
+      "bytes": 5604,
+      "sha256": "afef9bd08010b72754a476af3837dbbc12667e0b7d0ce70a743f859e9f40e5cc"
+    },
+    {
+      "path": "desktop-validation/trusted/verify_api_python.py",
+      "source": "desktop-validation/trusted/verify_api_python.py",
+      "bytes": 362,
+      "sha256": "e3a9d5f1f55822783d9eceaa5936c546d230065926a0180715d2364fd86d0ea0"
+    },
+    {
+      "path": "desktop-validation/trusted/verify_mock.py",
+      "source": "desktop-validation/trusted/verify_mock.py",
+      "bytes": 451,
+      "sha256": "ae50ed1dbdcc8158515904eb72c1f0d26c820404223f009f4f07aad7be3c176c"
+    },
+    {
+      "path": "docs/architecture.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/architecture.md",
+      "bytes": 3269,
+      "sha256": "15b3b29afc5df570e64f57b8e85622c3e10a0adc2bff8863696b903ead469978"
+    },
+    {
+      "path": "docs/development-status.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/development-status.md",
+      "bytes": 2738,
+      "sha256": "79cd28e0124d766c21fc3ca6480ec11b003a1cfd75d52fe824f58e3cbc1a601f"
+    },
+    {
+      "path": "docs/faq.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/faq.md",
+      "bytes": 1639,
+      "sha256": "ca8a67699a9895a0872eced1c0a3b39d275c140aa4a4d4a649bbf0422b3f865c"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/getting-started.md",
+      "bytes": 3274,
+      "sha256": "48a2f5fa2d0f72ecdf0f9503c51916bcbbd17639db979110812fba7662489db6"
+    },
+    {
+      "path": "docs/images/01-workspace-verified.png",
+      "source": "docs/gui-v0.14.1/01-workspace-verified.png",
+      "bytes": 314029,
+      "sha256": "55ec876ca6c9cd12ecc19e27f27cb5b4e9776ab0b331ed6a459bb3fec53f1b93"
+    },
+    {
+      "path": "docs/images/02-new-task.png",
+      "source": "docs/gui-v0.14.1/02-new-task.png",
+      "bytes": 106645,
+      "sha256": "c71e5606d77dfd60608d000e4a3d912565d2e464100387dd446d5a6440509b3f"
+    },
+    {
+      "path": "docs/images/03-running-MOCK.png",
+      "source": "docs/gui-v0.14.1/03-running-MOCK.png",
+      "bytes": 148733,
+      "sha256": "fc7c03f2009c9c68564b18880900915dd6c33827280f068cb74e783bcf6cf6e0"
+    },
+    {
+      "path": "docs/images/04-inspector-diff.png",
+      "source": "docs/gui-v0.14.1/04-inspector-diff.png",
+      "bytes": 220057,
+      "sha256": "93791e87e33a8b3046fdc67aa2a7dd43b628015f9e0c4ace0df845f7959a6f19"
+    },
+    {
+      "path": "docs/images/social-preview.png",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/images/social-preview.png",
+      "bytes": 108601,
+      "sha256": "695ce9b129e1f88e053a21e22e7329abc30990568c7deb157b2a1c38d6162305"
+    },
+    {
+      "path": "docs/public-export.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/public-export.md",
+      "bytes": 3277,
+      "sha256": "9f9d17a65ef7004dfb1cff077e33904e8bf2fa179aab9fd629bbf3f0750e3524"
+    },
+    {
+      "path": "docs/screenshots.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/screenshots.md",
+      "bytes": 1489,
+      "sha256": "8fd4394c02e5047c7fc7882b345650a0e060856493076e1a1a001f107936949f"
+    },
+    {
+      "path": "docs/security.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/security.md",
+      "bytes": 1872,
+      "sha256": "30ca7925ccacf17460bc3de675b1b9af830a337f23a2139bdf13545eacd4835d"
+    },
+    {
+      "path": "docs/validation.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/validation.md",
+      "bytes": 3239,
+      "sha256": "c3b0d7a1c1c10c34834f29ef609bcabe5cc43ef58f680d1cdd6bd22a8e47737a"
+    },
+    {
+      "path": "dual_agent/__init__.py",
+      "source": "dual_agent/__init__.py",
+      "bytes": 167,
+      "sha256": "8ac6b1f04e540974ea46eeae00bf5f319444c35f6155c00ae5a32563502300bc"
+    },
+    {
+      "path": "dual_agent/__main__.py",
+      "source": "dual_agent/__main__.py",
+      "bytes": 137,
+      "sha256": "5e17f178f351dc3dd6e8c9a2199ef5a696fba56c2c20d063c548a2d3d26d0415"
+    },
+    {
+      "path": "dual_agent/budget.py",
+      "source": "dual_agent/budget.py",
+      "bytes": 1969,
+      "sha256": "b357d1f56db2a2df73aeb2db5538613fe9ad0df2a7eb77adcc5dd5a6b1f35443"
+    },
+    {
+      "path": "dual_agent/cli.py",
+      "source": "dual_agent/cli.py",
+      "bytes": 20374,
+      "sha256": "24321f7e4f3b8af9659e6f822485acf612f3adde2148400de92572be9cd2ac2f"
+    },
+    {
+      "path": "dual_agent/coordinator.py",
+      "source": "dual_agent/coordinator.py",
+      "bytes": 71719,
+      "sha256": "9f1eca1d69c01079eeb5e39919f25ea107253a6a07bfa5339292deb9ed7806f5"
+    },
+    {
+      "path": "dual_agent/execution_context.py",
+      "source": "dual_agent/execution_context.py",
+      "bytes": 2714,
+      "sha256": "2730f68b1b22bb09855d4e5db9453a393ae42b296e5f588d64ccec614cffb30b"
+    },
+    {
+      "path": "dual_agent/execution_gate.py",
+      "source": "dual_agent/execution_gate.py",
+      "bytes": 12919,
+      "sha256": "91a33c1f244c2ec00bab6b705b152180d2e8b4de3a36bb24e020974eb1f58286"
+    },
+    {
+      "path": "dual_agent/executors.py",
+      "source": "dual_agent/executors.py",
+      "bytes": 20348,
+      "sha256": "b2e161b9e261e51a4f7175c67f6544d13b4c4a8ceca218c930f5373e0ddff1bf"
+    },
+    {
+      "path": "dual_agent/goal_host/__init__.py",
+      "source": "dual_agent/goal_host/__init__.py",
+      "bytes": 71,
+      "sha256": "4be44faff167371be35c30cb31ec0f4776020ebfde80de5e00d278721e40fbd7"
+    },
+    {
+      "path": "dual_agent/goal_host/identity.py",
+      "source": "dual_agent/goal_host/identity.py",
+      "bytes": 6370,
+      "sha256": "1bee05f75d837a65b3b7043e302e87420b300838cf719101aa7beb57beaa0c8d"
+    },
+    {
+      "path": "dual_agent/goal_host/inheritance.py",
+      "source": "dual_agent/goal_host/inheritance.py",
+      "bytes": 6653,
+      "sha256": "2a442f305eda535083fee995cf840599d55a03fb84b4095dbb7c4ab2494febc3"
+    },
+    {
+      "path": "dual_agent/goal_host/service.py",
+      "source": "dual_agent/goal_host/service.py",
+      "bytes": 22621,
+      "sha256": "90496a63f33c378fac010acdff0d5b167c4882d6d9c125a94dfc710527cfa411"
+    },
+    {
+      "path": "dual_agent/goal_host/trusted_evidence.py",
+      "source": "dual_agent/goal_host/trusted_evidence.py",
+      "bytes": 11664,
+      "sha256": "1ec2792bb701a03372712102f56b014d8df7c5982b3483750efa2dfea38f3d65"
+    },
+    {
+      "path": "dual_agent/goal_ledger/__init__.py",
+      "source": "dual_agent/goal_ledger/__init__.py",
+      "bytes": 597,
+      "sha256": "09c4c7c9411f33db6e95550f308e8a5dd43d411c96548af3046f7a94e717ab0e"
+    },
+    {
+      "path": "dual_agent/goal_ledger/db.py",
+      "source": "dual_agent/goal_ledger/db.py",
+      "bytes": 4563,
+      "sha256": "660ad6baee24337ad12d870b87fd17ccf30f176e593e72517a4bcad03fc35e9e"
+    },
+    {
+      "path": "dual_agent/goal_ledger/evidence.py",
+      "source": "dual_agent/goal_ledger/evidence.py",
+      "bytes": 4419,
+      "sha256": "3efc87c66cd18c7f35dc85a062aefea6391fc59586b5c5d0c11d1de84819963f"
+    },
+    {
+      "path": "dual_agent/goal_ledger/ledger.py",
+      "source": "dual_agent/goal_ledger/ledger.py",
+      "bytes": 43312,
+      "sha256": "0ef6f5479233e0f6995a367cbd057f92099c6db9e772b5ecc54ffbeb97a94dfb"
+    },
+    {
+      "path": "dual_agent/goal_ledger/manager_calls.py",
+      "source": "dual_agent/goal_ledger/manager_calls.py",
+      "bytes": 5447,
+      "sha256": "4c9e89e44e937c33adc3e2856e1453a65dafc33cdde69024dc79327b7bcbd261"
+    },
+    {
+      "path": "dual_agent/goal_ledger/manager_state.py",
+      "source": "dual_agent/goal_ledger/manager_state.py",
+      "bytes": 7654,
+      "sha256": "dbf7004127edeef113d548bf8214c88b42217cc30bc0428c1c79086d4b2ee039"
+    },
+    {
+      "path": "dual_agent/goal_ledger/migrations.py",
+      "source": "dual_agent/goal_ledger/migrations.py",
+      "bytes": 8440,
+      "sha256": "e7ed08c1f4349037319c8b972f76cce26ec8b34e2bcb0b05816830d4e212b7e0"
+    },
+    {
+      "path": "dual_agent/goal_ledger/model.py",
+      "source": "dual_agent/goal_ledger/model.py",
+      "bytes": 5262,
+      "sha256": "291bd87e4d27009471217dc15a91eb60c3f12b0a18690ac7749d2dd6b0535c50"
+    },
+    {
+      "path": "dual_agent/goal_ledger/recovery.py",
+      "source": "dual_agent/goal_ledger/recovery.py",
+      "bytes": 3834,
+      "sha256": "c0b88570bfa544b7d38c44ee59d0fe5dd2ace7fadcc25cc0718ced9d17769567"
+    },
+    {
+      "path": "dual_agent/goal_ledger/schemas.py",
+      "source": "dual_agent/goal_ledger/schemas.py",
+      "bytes": 4509,
+      "sha256": "0fec731e39ea2031a66299286a509c207380be8655116febf0feb4d7b150a3f8"
+    },
+    {
+      "path": "dual_agent/goal_ledger/state_machine.py",
+      "source": "dual_agent/goal_ledger/state_machine.py",
+      "bytes": 2004,
+      "sha256": "92eb8d53a6b89b4db352beee4820c4e4f76d0e8322a66a988f960774999a6e5b"
+    },
+    {
+      "path": "dual_agent/grants.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/dual_agent/grants.py",
+      "bytes": 8457,
+      "sha256": "7cec8d4cd6c736ade1c660a7faac141d0084291746ec4a384b20801337c46cdb"
+    },
+    {
+      "path": "dual_agent/gui/__init__.py",
+      "source": "dual_agent/gui/__init__.py",
+      "bytes": 441,
+      "sha256": "88c3efc849aefd3990129a84ba725ff905acfdfe52f6e9030a19e050523c8854"
+    },
+    {
+      "path": "dual_agent/gui/__main__.py",
+      "source": "dual_agent/gui/__main__.py",
+      "bytes": 1519,
+      "sha256": "0fbb42cc9f60c81021bbbc50d934015bfe6a88fcf665f13a73514b4f69aff6d9"
+    },
+    {
+      "path": "dual_agent/gui/adapter.py",
+      "source": "dual_agent/gui/adapter.py",
+      "bytes": 16082,
+      "sha256": "8ef4efa46569ee3cf364f2d48beca68fc12626e4198294dbc660d2c626c6e509"
+    },
+    {
+      "path": "dual_agent/gui/dialogs.py",
+      "source": "dual_agent/gui/dialogs.py",
+      "bytes": 12051,
+      "sha256": "3e8218ad6196fd3d4303536fce875201ba4dee086501a99b9952a6762f4a75c1"
+    },
+    {
+      "path": "dual_agent/gui/outcome.py",
+      "source": "dual_agent/gui/outcome.py",
+      "bytes": 2552,
+      "sha256": "9092909d89ad872448f29ab773325dbeab6a49004e1bce1525d0583f86ce1ffe"
+    },
+    {
+      "path": "dual_agent/gui/theme.py",
+      "source": "dual_agent/gui/theme.py",
+      "bytes": 5135,
+      "sha256": "d4f3ba017c41e0ebd42703f605a5d9e8293604cb8b82ae787d863aa9462e8a3b"
+    },
+    {
+      "path": "dual_agent/gui/window.py",
+      "source": "dual_agent/gui/window.py",
+      "bytes": 63133,
+      "sha256": "09137aa31ba8d469d79f8bfecce5f0de64eb33a568f670558cfb8c89623af72b"
+    },
+    {
+      "path": "dual_agent/locks.py",
+      "source": "dual_agent/locks.py",
+      "bytes": 11609,
+      "sha256": "fa2b5181f8ab689177bfa527ba4b5d6d32b802821f0457feecabde403705314b"
+    },
+    {
+      "path": "dual_agent/manager/__init__.py",
+      "source": "dual_agent/manager/__init__.py",
+      "bytes": 998,
+      "sha256": "164fd691201d1ab5747b5a9f104e0f8ad5bd2cdf8d3f26574734957577bcfcf4"
+    },
+    {
+      "path": "dual_agent/manager/api_authorization.py",
+      "source": "dual_agent/manager/api_authorization.py",
+      "bytes": 3530,
+      "sha256": "9b39b4a58bfb5ce2b50e9e0085f5d11d32615d7de52ce399a0b3087d5d25672f"
+    },
+    {
+      "path": "dual_agent/manager/api_http.py",
+      "source": "dual_agent/manager/api_http.py",
+      "bytes": 8790,
+      "sha256": "19fa72e7bc14e35b1c0cae21c737af4d934a2b12b79b2627342f0963d757ad72"
+    },
+    {
+      "path": "dual_agent/manager/api_profiles.py",
+      "source": "dual_agent/manager/api_profiles.py",
+      "bytes": 1503,
+      "sha256": "7bb8119e577191a474d3be8b175ff8763d4ba42d08eb6ae919f4130e63b4a0c9"
+    },
+    {
+      "path": "dual_agent/manager/api_protocol.py",
+      "source": "dual_agent/manager/api_protocol.py",
+      "bytes": 6746,
+      "sha256": "925ac0be2eedc63e1155c5ee43554df15058d2e050924859e038b4ed6b4773d1"
+    },
+    {
+      "path": "dual_agent/manager/api_transport.py",
+      "source": "dual_agent/manager/api_transport.py",
+      "bytes": 8575,
+      "sha256": "33722d41c6686bf2535b861b77fc0f91e8d5d48dd91781e35453ecff607b1dbc"
+    },
+    {
+      "path": "dual_agent/manager/authorization.py",
+      "source": "dual_agent/manager/authorization.py",
+      "bytes": 3850,
+      "sha256": "d0b954ab5794e4dd4a5b470ddbf6db5579a8660aa02eb12ea85705f26c47fd40"
+    },
+    {
+      "path": "dual_agent/manager/context.py",
+      "source": "dual_agent/manager/context.py",
+      "bytes": 3472,
+      "sha256": "ee99907f4b1bbf9bb1a1d0bd94e7075e0e89c4a0ad8ad2693bf96aa8d28334c5"
+    },
+    {
+      "path": "dual_agent/manager/decisions.py",
+      "source": "dual_agent/manager/decisions.py",
+      "bytes": 1032,
+      "sha256": "ef2e9201bed4ca6069ffae40eb0f6ac4e9b3e7ca18bac22df8981c6a5fcd8077"
+    },
+    {
+      "path": "dual_agent/manager/loop.py",
+      "source": "dual_agent/manager/loop.py",
+      "bytes": 20885,
+      "sha256": "6593aba18b96d84527e649e5e257b6cf4c5c37af3a03c0ebb90727015a72fb70"
+    },
+    {
+      "path": "dual_agent/manager/models.py",
+      "source": "dual_agent/manager/models.py",
+      "bytes": 2830,
+      "sha256": "9468bad9bae4104f7ff7e018551281d36c7665fbc2270298fae5af523382fd71"
+    },
+    {
+      "path": "dual_agent/manager/planner.py",
+      "source": "dual_agent/manager/planner.py",
+      "bytes": 1363,
+      "sha256": "dcda9286bddf37292c38261b052e24aa373f765e7949a74531b78abfdb8762b2"
+    },
+    {
+      "path": "dual_agent/manager/provider.py",
+      "source": "dual_agent/manager/provider.py",
+      "bytes": 4222,
+      "sha256": "0e0f89b230613f1c826f26d43fc1a55f313ca53e54e889736b52b1283e984679"
+    },
+    {
+      "path": "dual_agent/manager/transport.py",
+      "source": "dual_agent/manager/transport.py",
+      "bytes": 13618,
+      "sha256": "39fc1db79f50258e901fce0f4f093e49e7e30dc1cdeaf70ca03c211095af37bf"
+    },
+    {
+      "path": "dual_agent/mock_cli.py",
+      "source": "dual_agent/mock_cli.py",
+      "bytes": 10642,
+      "sha256": "ed5b7826218fdae009159b57dafea77c699646cd4e4b0e11873209d1b38a3a4e"
+    },
+    {
+      "path": "dual_agent/models.py",
+      "source": "dual_agent/models.py",
+      "bytes": 28592,
+      "sha256": "fd7f3f5146b258f441d8fd7aff9a59fbe6e3b8b71a60f8528522d61d93dabe37"
+    },
+    {
+      "path": "dual_agent/projects.py",
+      "source": "dual_agent/projects.py",
+      "bytes": 17567,
+      "sha256": "58210b04a869c03989a1890376d5d887cc204541f416bf32836396226bf00358"
+    },
+    {
+      "path": "dual_agent/readiness.py",
+      "source": "dual_agent/readiness.py",
+      "bytes": 21502,
+      "sha256": "746213a29d62353f8cc7eb8e937a0fceb379a6d6c3c0b1ecaae17b3d2892761b"
+    },
+    {
+      "path": "dual_agent/report.py",
+      "source": "dual_agent/report.py",
+      "bytes": 17713,
+      "sha256": "05b8df132bae7ae4b52cc6300d7b5486d78be483a6fb2305bb74ace27ff434bc"
+    },
+    {
+      "path": "dual_agent/roles.py",
+      "source": "dual_agent/roles.py",
+      "bytes": 3058,
+      "sha256": "c570e2b152462ca5eda5b5e7ef27ae2e066e76c64058690e21d0112e82c85c08"
+    },
+    {
+      "path": "dual_agent/safety.py",
+      "source": "dual_agent/safety.py",
+      "bytes": 14885,
+      "sha256": "b11f82746ccdd7ec7cd604d120d5977f976c8e085614f001fc2c616c42516a0f"
+    },
+    {
+      "path": "dual_agent/scheduler.py",
+      "source": "dual_agent/scheduler.py",
+      "bytes": 26226,
+      "sha256": "75859f92d356f5926d76203437239f2116630ce03ad6af3ba8e93bf51ceb212c"
+    },
+    {
+      "path": "dual_agent/status.py",
+      "source": "dual_agent/status.py",
+      "bytes": 3156,
+      "sha256": "6d8869322a2eb148fb30e158951511854399a147cce234d4bdac7e57d2474703"
+    },
+    {
+      "path": "dual_agent/usage.py",
+      "source": "dual_agent/usage.py",
+      "bytes": 5294,
+      "sha256": "bf4ae2aca4864fa814b56ef38890c5bd22897887cbbe2a34c911116d2944c4e0"
+    },
+    {
+      "path": "dual_agent/winproc.py",
+      "source": "dual_agent/winproc.py",
+      "bytes": 17382,
+      "sha256": "f393a307138aade9035a44a914036280bdce9d4990d0e086486ce72d8624203c"
+    },
+    {
+      "path": "dual_agent/worktree.py",
+      "source": "dual_agent/worktree.py",
+      "bytes": 12387,
+      "sha256": "082851c24ad4c9eb5dd65c4514b8a63201db04b5045c31796d0d89cbae4fb68c"
+    },
+    {
+      "path": "packaging/README.md",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/packaging/README.md",
+      "bytes": 442,
+      "sha256": "487cae17e0c2b01346fea1fbeeba29e0df88ffb025857e290a9c46278e147201"
+    },
+    {
+      "path": "requirements.txt",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/requirements.txt",
+      "bytes": 91,
+      "sha256": "c4f8857120313c41096894b45d58bbe84d3c1e59ba8826572035c0a08fa0a553"
+    },
+    {
+      "path": "tests/fixtures/check_value.py",
+      "source": "tests/fixtures/check_value.py",
+      "bytes": 592,
+      "sha256": "ae3726466d6361c5c082f1cb87c6cf58433f3703bacf19b3eb0ea902527a4020"
+    },
+    {
+      "path": "tests/fixtures/示例工作区/说明.txt",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/tests/fixtures/示例工作区/说明.txt",
+      "bytes": 97,
+      "sha256": "82ec4ca04a9271e663e02ad79b7477f60796efb708a4adf1cab832f77cf634f9"
+    },
+    {
+      "path": "tests/support.py",
+      "source": "tests/support.py",
+      "bytes": 2063,
+      "sha256": "b1bd3759792db1b0eab12d46372151d865dd4ab2a114d628691b611bc69261d8"
+    },
+    {
+      "path": "tests/test_command_verification.py",
+      "source": "tests/test_command_verification.py",
+      "bytes": 15183,
+      "sha256": "8f06ed7fa961bc6878b08d956c0aba0b28387c1874c017585d45b6c929474534"
+    },
+    {
+      "path": "tests/test_cursor_format.py",
+      "source": "tests/test_cursor_format.py",
+      "bytes": 8430,
+      "sha256": "a42f8038dc3301e1fd35a6eaf41dded58ef1bae55a01283c4ffacff69993791e"
+    },
+    {
+      "path": "tests/test_encoding.py",
+      "source": "tests/test_encoding.py",
+      "bytes": 7017,
+      "sha256": "5a1fd58b82673d11a69e18edc6ee7a78a9b7d23e1b752accfb3ea8f92eef898c"
+    },
+    {
+      "path": "tests/test_failures.py",
+      "source": "tests/test_failures.py",
+      "bytes": 5623,
+      "sha256": "9c17002887c2d6a14ee67635104f185fb54c9138f05754aececca478cf41c9ef"
+    },
+    {
+      "path": "tests/test_flow.py",
+      "source": "tests/test_flow.py",
+      "bytes": 6307,
+      "sha256": "b9c0e6c3cd48f0852b3fc7e78ae47a41a5decbbeba1d51029d7880656c063363"
+    },
+    {
+      "path": "tests/test_goal_ledger.py",
+      "source": "tests/test_goal_ledger.py",
+      "bytes": 35222,
+      "sha256": "2768e2613f3a08554cafd38e7b6a777c1e1b1ddd997bad1fce9c5f20d64382a2"
+    },
+    {
+      "path": "tests/test_gui.py",
+      "source": "tests/test_gui.py",
+      "bytes": 27780,
+      "sha256": "d179f0ffa3e42fa6523bb529b7b7b342f9f96f578026ccbd032a54ac79dc4417"
+    },
+    {
+      "path": "tests/test_multiproject.py",
+      "source": "tests/test_multiproject.py",
+      "bytes": 37805,
+      "sha256": "1df6696431ee4a92997ad67e2f8bbfe4ab88fe151663556e803dd59ba41d581c"
+    },
+    {
+      "path": "tests/test_readiness.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/tests/test_readiness.py",
+      "bytes": 5541,
+      "sha256": "8806aa923a9ae0b765a7cb72027bb245e5af0ba83f5565e10f4df145f5f489ef"
+    },
+    {
+      "path": "tests/test_readonly_grant.py",
+      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/tests/test_readonly_grant.py",
+      "bytes": 14800,
+      "sha256": "8a65099576f5de1840a52722c2685b10ff631de6d5983f190a069fdfa598bb97"
+    },
+    {
+      "path": "tests/test_regression.py",
+      "source": "tests/test_regression.py",
+      "bytes": 10987,
+      "sha256": "397c92a73728b0cf5531be5e61e512c2bb1e3ad8a1265dead0d8c8b785cdbf92"
+    },
+    {
+      "path": "tests/test_repair.py",
+      "source": "tests/test_repair.py",
+      "bytes": 23627,
+      "sha256": "a48f1469a0d865f739dc28f257636f290e71f5eb207fd17a1c325f2d00383a19"
+    },
+    {
+      "path": "tests/test_safety.py",
+      "source": "tests/test_safety.py",
+      "bytes": 20021,
+      "sha256": "e1381fdd6356308da3c2455f51c3b91f8ddf949cb6c5f5d2becdea00276c2b0a"
+    },
+    {
+      "path": "tests/test_usage.py",
+      "source": "tests/test_usage.py",
+      "bytes": 2725,
+      "sha256": "a30939607379ff6919a9d5bb27d14e94f313249126c5a1629cc980d51bb1652c"
+    },
+    {
+      "path": "tools/check_public_files.py",
+      "source": "docs/maintenance/2026-10-19-github-release/check_public_files.py",
+      "bytes": 6061,
+      "sha256": "9089f154b49121257f657405d33b25e5ded5d0dd2f683c336fc0e67f0f8e6129"
+    },
+    {
+      "path": "tools/export_public_source.py",
+      "source": "docs/maintenance/2026-10-19-github-release/export_public_source.py",
+      "bytes": 6380,
+      "sha256": "9ec593f81d10a82ec6543a174a763c1f5c00b15d26f15897885ab2e52a5db98a"
+    },
+    {
+      "path": "tools/run_offline_checks.py",
+      "source": "docs/maintenance/2026-10-19-github-release/run_offline_checks.py",
+      "bytes": 6538,
+      "sha256": "48472bdedbf545948d12d49c0f1a073fec52c13ba7cc70ce5dce5a573831f1c9"
+    }
+  ]
+}
