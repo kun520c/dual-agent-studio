@@ -16,9 +16,9 @@
     },
     {
       "path": ".github/workflows/windows.yml",
-      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/.github/workflows/windows.yml",
-      "bytes": 1033,
-      "sha256": "c4edb7c94419ebf4c28023b9ea47bdc888de8f28cf5a0b273baf6de5c4746d63"
+      "source": "docs/maintenance/2026-10-20-github-ci/public-overlay/.github/workflows/windows.yml",
+      "bytes": 1803,
+      "sha256": "baa3c6678eba7ec5c28d9606b5a7f6301b6ff63ba1fde9e0fc236b677c7a158b"
     },
     {
       "path": ".gitignore",
@@ -712,9 +712,9 @@
     },
     {
       "path": "docs/validation.md",
-      "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/validation.md",
-      "bytes": 3239,
-      "sha256": "c3b0d7a1c1c10c34834f29ef609bcabe5cc43ef58f680d1cdd6bd22a8e47737a"
+      "source": "docs/maintenance/2026-10-20-github-ci/public-overlay/docs/validation.md",
+      "bytes": 3934,
+      "sha256": "054b5a8c91651f4d3b7f7faa5e57b729a9984e820cb291fcf21d5798ef3a16fa"
     },
     {
       "path": "dual_agent/__init__.py",
@@ -1198,9 +1198,9 @@
     },
     {
       "path": "tools/run_offline_checks.py",
-      "source": "docs/maintenance/2026-10-19-github-release/run_offline_checks.py",
-      "bytes": 6538,
-      "sha256": "48472bdedbf545948d12d49c0f1a073fec52c13ba7cc70ce5dce5a573831f1c9"
+      "source": "docs/maintenance/2026-10-20-github-ci/public-overlay/tools/run_offline_checks.py",
+      "bytes": 7564,
+      "sha256": "2f3070e8472cbde8056e4ceb4d9b3b11d32663bd4e01526864282f82d5cce4a7"
     }
   ]
 }

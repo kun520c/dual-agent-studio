@@ -35,3 +35,9 @@ Scans complement the explicit allowlist, source/runtime separation, staged/histo
 The [Windows workflow](../.github/workflows/windows.yml) performs fresh dependency installation, frontend checks/build/tests, separate-interpreter offline groups and public file checks. Its actual hosted result is visible in [GitHub Actions](https://github.com/kun520c/dual-agent-studio/actions); this local table does not claim a hosted CI result.
 
 Live Manager B2.2-B, real Codex/Cursor, real automatic repair, native GUI soak, Java/Maven/JUnit, old binary packages, physical provider networking and fresh Windows deployment were not executed/retested for this publication.
+
+## Hosted CI follow-up — 2026-10-20
+
+The first hosted run was cancelled while the serial Python step was still active; it is not a passing CI result. The workflow now runs the same eight protected groups as separate Windows matrix jobs with independent timeouts and visible test-ID progress. A separate job checks TypeScript, builds the frontend, runs all Node tests and checks public file hashes/links. No authorization, migration or API safety test is removed. Generated keys, grants and test outputs are not uploaded as artifacts.
+
+The local results above remain the actual dated per-group baseline. Check GitHub Actions for the current hosted conclusion; no green badge is asserted here.

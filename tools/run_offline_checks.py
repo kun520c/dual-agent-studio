@@ -101,9 +101,29 @@ def main():
         visit(suite)
     started = time.monotonic()
     with (output/'tests.log').open('w',encoding='utf8') as log:
-        faulthandler.dump_traceback_later(90,repeat=True,file=log)
-        result = unittest.TextTestRunner(stream=log,verbosity=2).run(unittest.TestSuite(unique.values()))
-        faulthandler.cancel_dump_traceback_later()
+        class ProgressResult(unittest.TextTestResult):
+            # Public progress contains test identities only, never fixture keys,
+            # payloads, raw model messages or environment values.
+            def startTest(self,test):
+                print('TEST_START '+test.id(),flush=True)
+                faulthandler.dump_traceback_later(90,repeat=True,file=log)
+                super().startTest(test)
+            def stopTest(self,test):
+                faulthandler.cancel_dump_traceback_later()
+                super().stopTest(test)
+            def addSuccess(self,test):
+                super().addSuccess(test)
+                print('TEST_PASS '+test.id(),flush=True)
+            def addFailure(self,test,err):
+                super().addFailure(test,err)
+                print('TEST_FAIL '+test.id(),flush=True)
+            def addError(self,test,err):
+                super().addError(test,err)
+                print('TEST_ERROR '+test.id(),flush=True)
+            def addSkip(self,test,reason):
+                super().addSkip(test,reason)
+                print('TEST_SKIP '+test.id(),flush=True)
+        result = unittest.TextTestRunner(stream=log,verbosity=2,resultclass=ProgressResult).run(unittest.TestSuite(unique.values()))
     summary = dict(suite=args.suite,tests=result.testsRun,passed=result.testsRun-len(result.failures)-len(result.errors)-len(result.skipped),
         failures=len(result.failures),errors=len(result.errors),skipped=[dict(test=str(t),reason=r) for t,r in result.skipped],
         blockedAgentLaunches=blocked,blockedNetworkAttempts=attempts,seconds=round(time.monotonic()-started,3),
