@@ -8,7 +8,7 @@ permissions:
 jobs:
   frontend:
     name: Frontend and public files
-    runs-on: windows-latest
+    runs-on: windows-2022
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
       - run: python -B tools/check_public_files.py
   offline:
     name: Python offline (${{ matrix.suite }})
-    runs-on: windows-latest
+    runs-on: windows-2022
     timeout-minutes: 15
     strategy:
       fail-fast: false

@@ -41,3 +41,5 @@ Live Manager B2.2-B, real Codex/Cursor, real automatic repair, native GUI soak, 
 The first hosted run was cancelled while the serial Python step was still active; it is not a passing CI result. The workflow now runs the same eight protected groups as separate Windows matrix jobs with independent timeouts and visible test-ID progress. A separate job checks TypeScript, builds the frontend, runs all Node tests and checks public file hashes/links. No authorization, migration or API safety test is removed. Generated keys, grants and test outputs are not uploaded as artifacts.
 
 The local results above remain the actual dated per-group baseline. Check GitHub Actions for the current hosted conclusion; no green badge is asserted here.
+
+The first matrix on `windows-latest` exposed a Manager original-host failure followed by Node `0xC0000142` initialization errors. That failure remains recorded; Windows Server 2025 compatibility is not accepted. The current complete matrix is pinned to GitHub's Windows Server 2022 image for a controlled comparison with the same tests and assertions. No passing result is claimed until those jobs finish.

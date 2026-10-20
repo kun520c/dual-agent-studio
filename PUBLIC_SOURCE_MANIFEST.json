@@ -17,8 +17,8 @@
     {
       "path": ".github/workflows/windows.yml",
       "source": "docs/maintenance/2026-10-20-github-ci/public-overlay/.github/workflows/windows.yml",
-      "bytes": 1803,
-      "sha256": "baa3c6678eba7ec5c28d9606b5a7f6301b6ff63ba1fde9e0fc236b677c7a158b"
+      "bytes": 1799,
+      "sha256": "c581b931101a2dfbc3d035067a178b054eca0f9370e5a299431ae9ab67589895"
     },
     {
       "path": ".gitignore",
@@ -713,8 +713,8 @@
     {
       "path": "docs/validation.md",
       "source": "docs/maintenance/2026-10-20-github-ci/public-overlay/docs/validation.md",
-      "bytes": 3934,
-      "sha256": "054b5a8c91651f4d3b7f7faa5e57b729a9984e820cb291fcf21d5798ef3a16fa"
+      "bytes": 4341,
+      "sha256": "15da61e404f2a1edd4e32ed7e6e6ad6e6d439c4820e10b01c058359ff04db542"
     },
     {
       "path": "dual_agent/__init__.py",
