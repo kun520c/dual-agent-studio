@@ -1,6 +1,6 @@
 # FAQ
 
-**Is this a stable installer?** No. It is a source development preview, GUI v0.14.1 with the B2.2-A backend. No binary Release is supplied.
+**Is this a stable installer?** No. It is a source development preview, GUI v0.14.1 with the B2.2-A backend. No binary Release is supplied. Build `frontend/dist` yourself after clone; none is published. Doc milestones (GUI / backend) are not the same as `dual_agent.__version__` (`0.2.0` today).
 
 **Do I need Codex, Cursor or an API key?** Not for the fixed Mock rehearsal or protected offline tests. Real use requires separate explicit authorization and trusted deployment configuration; this source carries no production signer.
 

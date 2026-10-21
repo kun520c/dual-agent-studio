@@ -4,7 +4,9 @@
 
 [English](README.md) · [安装与离线演练](docs/getting-started.md) · [架构](docs/architecture.md) · [安全边界](docs/security.md)
 
-**源码开发预览**：GUI 仍为 **v0.14.1**，后台为 **v0.15 Phase B2.2-A**。B2.2-A 已完成离线工程验收；**B2.2-B 真实 API 联调尚未执行**。不提供已验收安装包，尚未选定项目许可证。
+**源码开发预览**：GUI 仍为 **v0.14.1**，后台为 **v0.15 Phase B2.2-A**。B2.2-A 已完成离线工程验收；**B2.2-B 真实 API 联调尚未执行**。**无安装包、无稳定 Release、仓库不含预构建 `frontend/dist`**——请克隆源码后自行构建前端再启动。尚未选定项目许可证。
+
+**版本口径**：上文 GUI / 后台编号是文档中的产品里程碑；可导入包 `dual_agent.__version__` 当前仍为 **`0.2.0`**，**不等于** GUI 或后台里程碑。本批只澄清文档，不改包内版本常量。
 
 ![真实 Qt 桌面中的历史验证与 Diff](docs/images/01-workspace-verified.png)
 
@@ -18,15 +20,18 @@ ManagerLoop 负责提出计划和决策，GoalLedger 持久化目标和身份，
 
 ## 实现状态
 
-| 能力 | 状态与限制 |
-| --- | --- |
-| v0.14.1 任务页、历史、Inspector / Diff、内置 Mock | 已实现；基本离线演练不需要模型或生产签名 |
-| Codex 开发、Cursor 审查/验收 | 已有适配器和历史真实验证；新任务仍需独立执行授权 |
-| 调度、资源锁、Git Worktree、可信验证 | 已离线验证；不是 OS 沙箱 |
-| GoalLedger、GoalHost、ManagerLoop | 已完成相应离线工程范围；Fake 结果不是模型能力证明 |
-| API-only Manager | B2.2-A 离线验收完成；真实服务未验收 |
-| CLI Manager | v2 独立调用通道；真实 Codex/Cursor Manager profile 仍关闭 |
-| 生产成果继承、跨会话自动交接 | 前者阻断，后者规划中 |
+| 能力 | 状态 | 边界（与英文 README 对齐） |
+| --- | --- | --- |
+| 桌面任务提交、历史、Diff / Inspector、内置 Mock | 已实现 | GUI **v0.14.1**；Mock 安全演练无需模型凭据或生产签名 |
+| Codex 开发 + Cursor 审查/验收适配 | 已实现 / 历史真实验证 | 新真实运行需独立执行授权；本仓发布未重跑真人 |
+| 调度、资源锁、Git Worktree | 仅离线验证 | 协作隔离，**不是** OS 沙箱 |
+| 独立可信验证与 RSA 执行授权 | 仅离线验证 | 签名范围/预算与新鲜工具证据；源码不含生产密钥 |
+| GoalLedger（SQLite WAL）与 GoalHost | 仅离线验证 | 后台服务；未知效果恢复失败关闭 |
+| ManagerLoop 规划、派工、审查、重试与重规划 | 仅离线验证 | Fake provider / Fake executor；生产成果继承仍阻断 |
+| API-only Manager（OpenAI / DeepSeek Responses） | 实验性，仅离线验证 | 五模块 + v3 独立签名；**B2.2-B 真实 API 联调未执行** |
+| CLI Manager 传输 | 实验性 | 独立 v2 Manager 授权；真实 Codex/Cursor Manager profile **仍关闭** |
+| 跨会话自动交接 | 计划 | 尚未实现 |
+| 安装包 / 稳定二进制 Release | 未发布 | 须自行构建 `frontend/dist` 后从源码启动 |
 
 ## API-only Manager：B2.2-A
 
@@ -38,13 +43,36 @@ API 调用使用独立 **v3 manager_call 签名**，绑定 backend kind、provid
 
 ## 架构
 
-用户 → React / PySide6 桌面 → 受限 Bridge → 本地 IPC → TaskHost / TaskPolicy → Scheduler → Coordinator → 授权 Executor。Coordinator 独立验证改动和可信命令。
+```mermaid
+flowchart TD
+    U[用户] --> GUI[React 桌面 / PySide6 WebEngine]
+    GUI --> BR[受限 QWebChannel / Python Bridge]
+    BR --> HC[本地 HostClient IPC]
+    HC --> TH[TaskHost / TaskPolicy]
+    TH --> S[TaskScheduler / 资源锁]
+    S --> C[Coordinator]
+    C --> G[ExecutionAuthority v1]
+    G --> E[Mock 或已授权 Codex / Cursor Executor]
+    E --> W[隔离 Git Worktree]
+    C --> V[可信命令 / 范围与快照检查]
+    V --> W
+    C --> R[运行证据与历史]
+    BR --> R
+    ML[后台 ManagerLoop] --> GL[GoalLedger / SQLite WAL]
+    ML --> GH[GoalHost]
+    GH --> TH
+    GH --> GL
+    V --> TS[Coordinator 证据源]
+    TS --> GL
+    ML --> AP[API-only Manager / v3 授权 / 默认离线]
+    ML --> CP[CLI Manager / v2 授权 / 真实 profile 关闭]
+```
 
-后台 ManagerLoop → GoalLedger / GoalHost → 原宿主派工；API-only v3 与 CLI Manager v2 为独立授权路径。Manager 不授予执行权限，也不能自证验收。[英文 README Mermaid](README.md#architecture) 与 [详细架构](docs/architecture.md)。
+**边界**：Manager **不能**授予执行权限，也不能自造可信验收证据。桌面仍是 GUI v0.14.1 任务面；Manager 编排仅后台 Python API，**没有**桌面 Manager 控制台。细节见 [架构说明](docs/architecture.md)（英文图与此同构：[README Architecture](README.md#architecture)）。
 
 ## Windows 安装与离线运行
 
-要求 Windows 10/11、Python 3.13、Git、Node.js 22.12+。全新 Windows 机器仍需部署验收。
+要求 Windows 10/11、Python 3.13、Git、Node.js 22.12+。以下是**源码构建**步骤，不是安装包；全新 Windows 机器仍需部署验收。克隆后必须先通过 `design-prototype` 的 npm 脚本构建出 `frontend/dist`，仓库不跟踪预构建产物。
 
 ```powershell
 git clone https://github.com/kun520c/dual-agent-studio.git

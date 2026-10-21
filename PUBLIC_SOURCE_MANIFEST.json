@@ -41,14 +41,14 @@
     {
       "path": "README.md",
       "source": "docs/maintenance/2026-10-19-github-release/public-overlay/README.md",
-      "bytes": 9289,
-      "sha256": "7fd70fa64628ce526f9fcce7a2ed5e93a83c3634cb8e7ce936b35aacda1af8d5"
+      "bytes": 9759,
+      "sha256": "7e193473e29d3620c1a852928bf846b1452be33a829d5a927b6c61d93024d99a"
     },
     {
       "path": "README.zh-CN.md",
       "source": "docs/maintenance/2026-10-19-github-release/public-overlay/README.zh-CN.md",
-      "bytes": 5832,
-      "sha256": "208dc7d3f1c740d7d501785f561e39689f15d93c5e83478218d14e30ae7bb166"
+      "bytes": 7530,
+      "sha256": "1de313774956160668c34b8a9cb73efc596c84cf323c550599c30b8a1e7043e7"
     },
     {
       "path": "SECURITY.md",
@@ -653,8 +653,8 @@
     {
       "path": "docs/faq.md",
       "source": "docs/maintenance/2026-10-19-github-release/public-overlay/docs/faq.md",
-      "bytes": 1639,
-      "sha256": "ca8a67699a9895a0872eced1c0a3b39d275c140aa4a4d4a649bbf0422b3f865c"
+      "bytes": 1795,
+      "sha256": "ac2822f27aa0a223ac58506afc45cdd079cfa99ca4b6c2949ad2dba1df939661"
     },
     {
       "path": "docs/getting-started.md",

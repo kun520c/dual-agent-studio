@@ -10,7 +10,9 @@ A Windows desktop workspace for orchestrating AI coding agents with trusted veri
 ![React](https://img.shields.io/badge/React-19-61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6)
 
-**Source development preview.** GUI **v0.14.1**, with the **v0.15 Phase B2.2-A** backend. B2.2-A completed offline engineering acceptance; **B2.2-B live API integration has not been run**. No installer or stable binary release is offered. A project license has not been selected.
+**Source development preview.** GUI **v0.14.1**, with the **v0.15 Phase B2.2-A** backend. B2.2-A completed offline engineering acceptance; **B2.2-B live API integration has not been run**. **No installer, no stable binary Release, and no prebuilt `frontend/dist`** — clone the source and build frontend assets before launch. A project license has not been selected.
+
+**Version labels:** GUI / backend numbers above are product milestones in the docs. The importable Python package still reports `dual_agent.__version__ == "0.2.0"`; that string is **not** the GUI or backend milestone. This batch does not change package code — only clarifies the docs.
 
 ![Actual v0.14.1 desktop showing historical trusted verification and Diff](docs/images/01-workspace-verified.png)
 
@@ -96,7 +98,7 @@ The historical `design-prototype` name is retained only as the frontend dependen
 
 ## Project status
 
-- GUI: **v0.14.1**; backend source baseline: **v0.15 B2.2-A**.
+- GUI: **v0.14.1**; backend source baseline: **v0.15 B2.2-A** (documentation milestones; see version note above — package `__version__` is still `0.2.0`).
 - Offline Manager orchestration and B2.2-A engineering acceptance: completed within their documented offline scope.
 - B2.2-B real API acceptance: **not executed**. Real CLI Manager isolation / protocol support remains unconfirmed.
 - Production multi-task result inheritance: blocked. Automatic cross-session handoff: planned.
